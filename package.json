@@ -1,0 +1,24 @@
+{
+  "name": "doc-gen-xtreme",
+  "version": "1.0.0",
+  "description": "The most extreme form generator :'^) Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FermiDirak/DocGenXtreme.git"
+  },
+  "keywords": [
+    "doc",
+    "gen",
+    "xtreme"
+  ],
+  "author": "FermiDirak Guinzar Jsonbaozi YZhenY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FermiDirak/DocGenXtreme/issues"
+  },
+  "homepage": "https://github.com/FermiDirak/DocGenXtreme#readme"
+}
