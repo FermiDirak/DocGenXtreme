@@ -17,15 +17,18 @@ What things you need to install the software and how to install them
 Install `yarn`
 ```
 npm install node; npm install express && npm i nodemon -g
-yarn && cd client && yarn;
-```
-
-Start Server
-```
-$ yarn dev
+yarn  && yarn dev //starts server
 ```
 
 ## Deployment *HEROKU*
+
+How this works
+
+Thid project uses an Express backend with the REACT front end. We have a proxy entry in package.json
+
+"proxy": "http://localhost:5000/"
+This tells Webpack development server to proxy our API requests to our API server, given that our Express server is running on localhost:5000
+
 
 Add additional notes about how to deploy this on a live system
 
