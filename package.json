@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "setup": "npm install && npm install -g live-server && babel . -w --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline",
+    "setup": "npm install express && npm install && npm install -g live-server && babel . -w --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline",
     "server": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
