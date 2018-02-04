@@ -2,8 +2,17 @@
   "name": "doc-gen-xtreme",
   "version": "1.0.0",
   "description": "The most extreme form generator :'^) Edit",
+<<<<<<< HEAD
   "scripts": {
     "start": "npm install && npm install -g live-server && babel . -w --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline",
+=======
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "setup": "npm install -g live-server && live-server",
+>>>>>>> 464d89ffee2d5db669d4338a0d08ebcc22422b44
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -36,5 +45,15 @@
   "bugs": {
     "url": "https://github.com/FermiDirak/DocGenXtreme/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/FermiDirak/DocGenXtreme#readme"
 }
+=======
+  "homepage": "https://github.com/FermiDirak/DocGenXtreme#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  }
+}
+>>>>>>> 464d89ffee2d5db669d4338a0d08ebcc22422b44

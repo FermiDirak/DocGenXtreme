@@ -17,10 +17,10 @@ async.waterfall(
     function(next) {
     var url = "https://demo.docusign.net/restapi/v2/login_information";
     var body = "";  // no request body for login api call
-    
+
     // set request url, method, body, and headers
     var options = initializeRequest(url, "GET", body, email, password);
-    
+
     // send the request...
     request(options, function(err, res, body) {
       if(!parseResponseBody(err, res, body)) {
@@ -30,11 +30,11 @@ async.waterfall(
       next(null); // call next function
     });
   },
-    
+
     /////////////////////////////////////////////////////////////////////////////////////
     // Step 2: Request Signature on a PDF Document
     /////////////////////////////////////////////////////////////////////////////////////
-    function(next) {    
+    function(next) {
       var url = baseUrl + "/envelopes";
       // following request body will place 1 signature tab 100 pixels to the right and
       // 100 pixels down from the top left of the document that you send in the request
@@ -49,7 +49,7 @@ async.waterfall(
               "xPosition": "100",
               "yPosition": "100",
               "documentId": "1",
-              "pageNumber": "1"                                         
+              "pageNumber": "1"
             }]
           }
         }]
@@ -61,13 +61,13 @@ async.waterfall(
       }],
       "status": "sent",
     };
-    
+
     // set request url, method, body, and headers
     var options = initializeRequest(url, "POST", body, email, password);
-  
+
     // change default Content-Type header from "application/json" to "multipart/form-data"
     options.headers["Content-Type"] = "multipart/form-data";
-    
+
     // configure a multipart http request with JSON body and document bytes
     options.multipart = [{
           "Content-Type": "application/json",
@@ -84,13 +84,13 @@ async.waterfall(
     request(options, function(err, res, body) {
       parseResponseBody(err, res, body);
     });
-  } // end function    
+  } // end function
 ]);
 
 //***********************************************************************************************
 // --- HELPER FUNCTIONS ---
 //***********************************************************************************************
-function initializeRequest(url, method, body, email, password) {  
+function initializeRequest(url, method, body, email, password) {
   var options = {
     "method": method,
     "uri": url,
@@ -102,11 +102,11 @@ function initializeRequest(url, method, body, email, password) {
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
-function addRequestHeaders(options, email, password) {  
+function addRequestHeaders(options, email, password) {
   // JSON formatted authentication header (XML format allowed as well)
   dsAuthHeader = JSON.stringify({
     "Username": email,
-    "Password": password, 
+    "Password": password,
     "IntegratorKey": integratorKey  // global
   });
   // DocuSign authorization header

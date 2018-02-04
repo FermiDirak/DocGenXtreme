@@ -32,6 +32,7 @@ To start:
 git clone https://github.com/FermiDirak/DocGenXtreme.git
 git branch <YOUR_NAME>
 git checkout <YOUR_NAME>
+git push --set-upstream origin <YOUR_NAME>
 
 ... make your changes ...
 
