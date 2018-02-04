@@ -1,8 +1,10 @@
 .title {
-  background: #4b6cb7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
+  /*background: #4b6cb7;   fallback for old browsers */
+  /*background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */*/
+  /*background: linear-gradient(to bottom, #182848, #4b6cb7);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*color: #fff;*/
+  border-bottom: solid #4b6cb7;
+  border-width: 5px;
   font-family: 'Courgette', cursive;
 }
 .container {
@@ -11,6 +13,11 @@
   border-width: 10px;
   width: 45%;
   font-family: 'Maven Pro', sans-serif;
+}
+
+#logo {
+  height: 60px;
+  float: left;
 }
 
 .inputBox {
