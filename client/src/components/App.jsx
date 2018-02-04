@@ -4,10 +4,24 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-
     this.state = {
+      currentForm: this.props.forms[0],
+      forms: this.props.forms;
+      selectedForm: this.props.forms[0]
       response: '',
-    };
+    }
+
+    this.url = ''//link to Docusign API.
+  }
+
+  //makes calls the Docusign API for calls.
+  requestSignature() {
+
+  }
+
+  //Stores signed documents
+  storeSignatures() {
+
   }
 
 
@@ -29,14 +43,12 @@ class App extends React.Component {
 
   render() {
     return(
-<<<<<<< HEAD
       <div className="App">
         <NavBar />
         <div className="row container">
           <div className="col-md-6 offset-md-3"
             <Inputs />
           </div>
-=======
       <div>
       DocuGenXtreme
       <br/>
@@ -45,15 +57,11 @@ class App extends React.Component {
       API Call example:
       <br/>
       {this.state.response}
->>>>>>> e76b342d70d28d5fbd9ebeefdc58a41f46897875
       </div>
     );
   }
 
 }
 
-<<<<<<< HEAD
 window.App = App;
-=======
 export default App;
->>>>>>> e76b342d70d28d5fbd9ebeefdc58a41f46897875

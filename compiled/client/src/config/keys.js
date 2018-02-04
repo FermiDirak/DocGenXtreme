@@ -1,0 +1,14 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var docusignKey = {
+	username: 'USERNAME',
+	password: 'PASSWORD',
+	accountId: 'ACCOUNT_ID',
+	integratorKey: 'INTEGRATOR_KEY'
+};
+
+exports.default = docusignKey;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2NsaWVudC9zcmMvY29uZmlnL2tleXMuanMiXSwibmFtZXMiOlsiZG9jdXNpZ25LZXkiLCJ1c2VybmFtZSIsInBhc3N3b3JkIiwiYWNjb3VudElkIiwiaW50ZWdyYXRvcktleSJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSxJQUFJQSxjQUFjO0FBQ2pCQyxXQUFVLFVBRE87QUFFakJDLFdBQVUsVUFGTztBQUdqQkMsWUFBVyxZQUhNO0FBSWpCQyxnQkFBZTtBQUpFLENBQWxCOztrQkFPZUosVyIsImZpbGUiOiJrZXlzLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIGRvY3VzaWduS2V5ID0ge1xuXHR1c2VybmFtZTogJ1VTRVJOQU1FJyxcblx0cGFzc3dvcmQ6ICdQQVNTV09SRCcsXG5cdGFjY291bnRJZDogJ0FDQ09VTlRfSUQnLFxuXHRpbnRlZ3JhdG9yS2V5OiAnSU5URUdSQVRPUl9LRVknLFxufVxuXG5leHBvcnQgZGVmYXVsdCBkb2N1c2lnbktleTsiXX0=

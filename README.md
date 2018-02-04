@@ -18,6 +18,7 @@ What things you need to install the software and how to install them
 ```
 npm install node
 npm start
+live-server
 ```
 
 ## Deployment
