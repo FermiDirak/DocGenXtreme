@@ -4,6 +4,7 @@
   "description": "MocuSign",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap": "^4.0.0-alpha.2",
     "jquery": "^3.0.0",
     "lodash": "^4.6.1",
@@ -21,3 +22,18 @@
     "sinon": "1.17.3"
   }
 }
+=======
+    "docusign": "^8.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000/"
+}
+>>>>>>> e76b342d70d28d5fbd9ebeefdc58a41f46897875
