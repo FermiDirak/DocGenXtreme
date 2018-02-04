@@ -1,0 +1,26 @@
+{
+  "name": "DocGenXtreme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FermiDirak/DocGenXtreme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FermiDirak/DocGenXtreme/issues"
+  },
+  "homepage": "https://github.com/FermiDirak/DocGenXtreme#readme"
+}
