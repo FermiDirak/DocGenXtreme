@@ -49,18 +49,14 @@ class App extends React.Component {
           <div className="col-md-6 offset-md-3"
             <Inputs />
           </div>
-      <div>
-      DocuGenXtreme
-      <br/>
-      <br/>
-      <br/>
-      API Call example:
-      <br/>
-      {this.state.response}
+        <div>
+        <br/>
+          API Call example:
+        <br/>
+          {this.state.response}
       </div>
     );
   }
-
 }
 
 window.App = App;
