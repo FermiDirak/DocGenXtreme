@@ -25,7 +25,6 @@ class App extends React.Component {
   }
 
 
-
   componentDidMount() {
     this.callApi()
       .then(res => this.setState({ response: res.express }))
@@ -59,5 +58,4 @@ class App extends React.Component {
   }
 }
 
-window.App = App;
 export default App;

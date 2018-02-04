@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The most extreme form generator :'^) Edit",
   "main": "server.js",
+  "proxy": "http://localhost:5000/",
   "scripts": {
     "start": "nodemon server.js",
     "setup": "npm install express && npm install && npm install -g live-server && babel . -w --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline",
