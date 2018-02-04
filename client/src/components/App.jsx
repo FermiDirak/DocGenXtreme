@@ -6,10 +6,16 @@ class App extends React.Component {
 
   render() {
     return(
-      <div>
-      DocuGenXtreme
+      <div className="App">
+        <NavBar />
+        <div className="row container">
+          <div className="col-md-6 offset-md-3"
+            <Inputs />
+          </div>
       </div>
     );
   }
 
 }
+
+window.App = App;

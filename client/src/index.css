@@ -1,5 +1,40 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.title {
+  background: #4b6cb7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-family: 'Courgette', cursive;
+}
+.container {
+  margin: 20px;
+  border: solid #ddd;
+  border-width: 10px;
+  width: 45%;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.inputBox {
+  width: 100%;
+  margin: 20px 20px 20px 0px;
+}
+
+input {
+  width:100%;
+}
+
+#submit {
+  margin: 0px 0px 20px 0px;
+  color: white;
+  background: -webkit-linear-gradient(to bottom, #182848, #005EB8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #182848, #005EB8);
+}
+
+#userPhoto {
+  border-radius: 50px;
+  margin-left: 15px;
+  width: 70%;
+}
+#userContainer {
+  margin: 20px;
+  padding: 10px;
 }

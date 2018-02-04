@@ -1,0 +1,5 @@
+//lol glhf
+
+//you need to create your own keys.js file in here xd
+"use strict";
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb25maWcva2V5cy5leGFtcGxlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBIiwiZmlsZSI6ImtleXMuZXhhbXBsZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vbG9sIGdsaGZcblxuLy95b3UgbmVlZCB0byBjcmVhdGUgeW91ciBvd24ga2V5cy5qcyBmaWxlIGluIGhlcmUgeGQiXX0=
