@@ -6,20 +6,15 @@
   "proxy": "http://localhost:5000/",
   "scripts": {
     "start": "nodemon server.js",
+    "client": "cd client && yarn start",
     "setup": "npm install express && npm install && npm install -g live-server && babel . -w --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline",
-    "server": "live-server",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FermiDirak/DocGenXtreme.git"
-  },
-    "dependencies": {
-    "bootstrap": "^4.0.0-alpha.2",
-    "jquery": "^2.2.1",
-    "lodash": "^4.6.1",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
@@ -44,6 +39,11 @@
   "dependencies": {
     "concurrently": "^3.5.1",
     "express": "^4.16.2",
-    "nodemon": "^1.14.12"
+    "nodemon": "^1.14.12",
+    "bootstrap": "^4.0.0-alpha.2",
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   }
 }

@@ -14,14 +14,18 @@ paste the keys and stuffs into `keys.js`. Follow `keys.example.js` as an example
 ### Prerequisites
 
 What things you need to install the software and how to install them
-
+Install `yarn`
 ```
-npm install node
-npm start
-live-server
+npm install node; npm install express && npm i nodemon -g
+yarn && cd client && yarn;
 ```
 
-## Deployment
+Start Server
+```
+$ yarn dev
+```
+
+## Deployment *HEROKU*
 
 Add additional notes about how to deploy this on a live system
 
@@ -55,4 +59,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
-
